@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+}
+
+/* Fonts */
+
+
+@font-face {
+    font-family: Dela Gothic One;
+    src: url(../fonts/DelaGothicOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.ttf');
+    src: url('../fonts/Montserrat-Medium.ttf');
+    src: url('../fonts/Montserrat-Regular.ttf');
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+
+}
+
+
+
+/* Headings */
+
+.h1-text {
+    color: #fff;
+    font-family: Dela Gothic One;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 118%;
+    text-transform: uppercase;
+}
+
+.h5-text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+
+
+/* Header */
+
+
+
+.header {
+    background-image: url(../images/header-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 111px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #fff;
+
+
+}
+
+.header__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.header__item_nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__intro_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Index */
+
+.main__intro_box {
+    background-image: url(../images/index-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+
+.main__intro {
+    width: 492px;
+}
+
+.main__intro_desc {
+    color: #fff;
+    width: 417px;
+
+}
+
+.main__intro_buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.main__intro_btns {
+    display: flex;
+    width: 180.7px;
+    height: 68.373px;
+    padding: 12px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    background: transparent;
+    border: 1px solid #E32966;
+    color: #E32966;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* Halls */
+
+
+.halls__intro {
+    background-image: url(../images/main-bg.jpg);
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    gap: 157px;
+    padding-top: 128px;
+}
+
+.heading__title {
+    text-align: center;
+    margin-bottom: 91px;
+}
+
+.halls__box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.halls__item_border {
+
+    border-radius: 40px;
+
+}
+
+.halls__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    width: 386px;
+    height: 483px;
+    background: #101315;
+    border-radius: 40px;
+    border: 10px solid rgba(255, 255, 255, 0.10);
+
+
+}
+
+
+.halls__item_btn {
+    border-radius: 32px;
+    background: #E32966;
+    display: flex;
+    width: 162.839px;
+    height: 48px;
+    padding: 12px 30px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.halls__item_btns {
+    padding-bottom: 32px;
+}
+
+
+
+/* Games */
+
+.games__intro {
+    background-image: url(../images/main-bg.jpg);
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    gap: 157px;
+    padding-top: 128px;
+}
+
+.games__item {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+}
+
+.games__item_title {
+    color: #FFF;
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-style: normal;
+
+}
+
+.games__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+/* Authorization */
+
+.auth__intro {
+    background-image: url(../images/main-bg.jpg);
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    gap: 157px;
+    padding-top: 128px;
+}
+
+.form__inputs_input {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 440px;
+    height: 50px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.form__inputs_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+input::placeholder {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+
+    outline: none;
+
+}
+
+.style__forms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.blue-btn {
+    width: 440px;
+    height: 69px;
+    border-radius: 20px;
+    background: #21175E;
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+/* Admin panel */
+
+.admin__links {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 100px;
+}
+
+.admin__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+}
